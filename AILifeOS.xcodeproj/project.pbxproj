@@ -15,7 +15,6 @@
 		7A2C3B4D5E6F7A8B9C0D1E3B /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C3B4D5E6F7A8B9C0D1E3C /* AddTransactionView.swift */; };
 		7A2C3B4D5E6F7A8B9C0D1E3D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C3B4D5E6F7A8B9C0D1E3E /* Transaction.swift */; };
 		7A2C3B4D5E6F7A8B9C0D1E3F /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C3B4D5E6F7A8B9C0D1E40 /* TransactionModel.swift */; };
-		7A2C3B4D5E6F7A8B9C0D1E41 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A2C3B4D5E6F7A8B9C0D1E42 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -150,7 +149,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A2C3B4D5E6F7A8B9C0D1E41 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
