@@ -19,9 +19,15 @@ struct SearchView: View {
             VStack(spacing: 0) {
                 // Header
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("🔍 Search Transactions")
-                        .font(.system(size: 28, weight: .bold, design: .rounded))
-                        .foregroundColor(.black)
+                    HStack(spacing: 8) {
+                        Image(systemName: "magnifyingglass.circle.fill")
+                            .font(.system(size: 24))
+                            .foregroundColor(.blue)
+                        
+                        Text("Search Transactions")
+                            .font(.system(size: 28, weight: .bold, design: .rounded))
+                            .foregroundColor(.black)
+                    }
                     
                     Text("Find your expenses quickly")
                         .font(.subheadline)

@@ -19,9 +19,13 @@ struct TransactionsListView: View {
                     .listRowInsets(EdgeInsets(top: 4, leading: 16, bottom: 4, trailing: 16))
                     .listRowSeparator(.hidden)
                 } header: {
-                    Text("📋 All Transactions")
-                        .font(.headline)
-                        .foregroundColor(.black)
+                    HStack(spacing: 8) {
+                        Image(systemName: "list.bullet.circle.fill")
+                            .foregroundColor(.blue)
+                        Text("All Transactions")
+                            .font(.headline)
+                            .foregroundColor(.black)
+                    }
                 }
             }
             .listStyle(.grouped)

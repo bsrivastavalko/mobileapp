@@ -10,9 +10,15 @@ struct DashboardView: View {
                 VStack(spacing: 20) {
                     // Header
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("💰 Financial Overview")
-                            .font(.system(size: 28, weight: .bold, design: .rounded))
-                            .foregroundColor(.black)
+                        HStack(spacing: 8) {
+                            Image(systemName: "dollarsign.circle.fill")
+                                .font(.system(size: 24))
+                                .foregroundColor(.blue)
+                            
+                            Text("Financial Overview")
+                                .font(.system(size: 28, weight: .bold, design: .rounded))
+                                .foregroundColor(.black)
+                        }
                         
                         Text("Track your transactions smartly")
                             .font(.subheadline)
@@ -57,7 +63,7 @@ struct DashboardView: View {
                     // Stats Cards
                     VStack(spacing: 12) {
                         DashboardCard(
-                            title: "💵 Monthly Income",
+                            title: "Monthly Income",
                             amount: model.monthlyIncome,
                             icon: "arrow.down.circle.fill",
                             backgroundColor: Color(red: 0.85, green: 0.95, blue: 0.85),
@@ -65,7 +71,7 @@ struct DashboardView: View {
                         )
                         
                         DashboardCard(
-                            title: "💸 Monthly Expense",
+                            title: "Monthly Expense",
                             amount: model.monthlyExpense,
                             icon: "arrow.up.circle.fill",
                             backgroundColor: Color(red: 0.95, green: 0.85, blue: 0.85),
@@ -76,7 +82,7 @@ struct DashboardView: View {
                         let textColor = model.netBalance >= 0 ? Color(red: 0.0, green: 0.3, blue: 0.8) : Color(red: 0.8, green: 0.5, blue: 0.0)
                         
                         DashboardCard(
-                            title: "💎 Net Balance",
+                            title: "Net Balance",
                             amount: model.netBalance,
                             icon: "chart.pie.fill",
                             backgroundColor: balanceColor,

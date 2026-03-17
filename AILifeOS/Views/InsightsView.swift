@@ -8,9 +8,15 @@ struct InsightsView: View {
             ScrollView {
                 VStack(spacing: 20) {
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("📊 Financial Insights")
-                            .font(.system(size: 28, weight: .bold, design: .rounded))
-                            .foregroundColor(.black)
+                        HStack(spacing: 8) {
+                            Image(systemName: "chart.bar.fill")
+                                .font(.system(size: 24))
+                                .foregroundColor(.blue)
+                            
+                            Text("Financial Insights")
+                                .font(.system(size: 28, weight: .bold, design: .rounded))
+                                .foregroundColor(.black)
+                        }
                         
                         Text("See where your money goes")
                             .font(.subheadline)
