@@ -8,21 +8,24 @@ struct GmailConnectView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 20) {
-                VStack(alignment: .center, spacing: 20) {
+                VStack(alignment: .center, spacing: 16) {
                     Image(systemName: "envelope.badge.shield.half.filled")
                         .font(.system(size: 60))
                         .foregroundColor(.blue)
-                        .padding()
+                        .padding(.bottom, 8)
                     
-                    VStack(alignment: .center, spacing: 8) {
+                    VStack(alignment: .center, spacing: 10) {
                         Text("Connect Gmail")
                             .font(.system(size: 24, weight: .bold))
+                            .lineLimit(1)
                         
-                        Text("Securely import banking emails from Gmail to analyze your financial history")
+                        Text("Banking emails analysis from Gmail")
                             .font(.subheadline)
                             .foregroundColor(.gray)
                             .multilineTextAlignment(.center)
+                            .fixedSize(horizontal: false, vertical: true)
                     }
+                    .padding(.horizontal, 8)
                 }
                 .padding()
                 
