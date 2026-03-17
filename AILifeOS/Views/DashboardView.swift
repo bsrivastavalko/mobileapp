@@ -7,7 +7,7 @@ struct DashboardView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(spacing: 20) {
+                VStack(spacing: 16) {
                     // Header
                     VStack(alignment: .leading, spacing: 8) {
                         HStack(spacing: 8) {
@@ -26,7 +26,7 @@ struct DashboardView: View {
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.horizontal)
-                    .padding(.top)
+                    .padding(.top, 12)
                     
                     // Gmail Connect Button
                     Button(action: { showGmailConnect = true }) {
@@ -90,10 +90,8 @@ struct DashboardView: View {
                         )
                     }
                     .padding(.horizontal)
-                    
-                    Spacer()
                 }
-                .padding(.vertical)
+                .padding(.vertical, 12)
             }
             .navigationTitle("Dashboard")
         }
