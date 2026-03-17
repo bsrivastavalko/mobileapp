@@ -1,0 +1,16 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		/* Begin PBXProject section */
+		PRODUCT_NAME = "AILifeOS";
+		TARGETS = (
+			3F8A1B2C2D3E4F5G6H7I8J9K,
+			3F8A1B2C2D3E4F5G6H7I8J9L
+		);
+	};
+	/* End PBXProject section */
+}
