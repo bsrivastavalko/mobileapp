@@ -15,6 +15,7 @@
 		7A2C3B4D5E6F7A8B9C0D1E3B /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C3B4D5E6F7A8B9C0D1E3C /* AddTransactionView.swift */; };
 		7A2C3B4D5E6F7A8B9C0D1E3D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C3B4D5E6F7A8B9C0D1E3E /* Transaction.swift */; };
 		7A2C3B4D5E6F7A8B9C0D1E3F /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C3B4D5E6F7A8B9C0D1E40 /* TransactionModel.swift */; };
+		7A2C3B4D5E6F7A8B9C0D1E54 /* GmailConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C3B4D5E6F7A8B9C0D1E55 /* GmailConnectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7A2C3B4D5E6F7A8B9C0D1E38 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
 		7A2C3B4D5E6F7A8B9C0D1E3A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		7A2C3B4D5E6F7A8B9C0D1E3C /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		7A2C3B4D5E6F7A8B9C0D1E55 /* GmailConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailConnectView.swift; sourceTree = "<group>"; };
 		7A2C3B4D5E6F7A8B9C0D1E3E /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		7A2C3B4D5E6F7A8B9C0D1E40 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		7A2C3B4D5E6F7A8B9C0D1E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				7A2C3B4D5E6F7A8B9C0D1E38 /* InsightsView.swift */,
 				7A2C3B4D5E6F7A8B9C0D1E3A /* SearchView.swift */,
 				7A2C3B4D5E6F7A8B9C0D1E3C /* AddTransactionView.swift */,
+				7A2C3B4D5E6F7A8B9C0D1E55 /* GmailConnectView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				7A2C3B4D5E6F7A8B9C0D1E37 /* InsightsView.swift in Sources */,
 				7A2C3B4D5E6F7A8B9C0D1E39 /* SearchView.swift in Sources */,
 				7A2C3B4D5E6F7A8B9C0D1E3B /* AddTransactionView.swift in Sources */,
+				7A2C3B4D5E6F7A8B9C0D1E54 /* GmailConnectView.swift in Sources */,
 				7A2C3B4D5E6F7A8B9C0D1E3D /* Transaction.swift in Sources */,
 				7A2C3B4D5E6F7A8B9C0D1E3F /* TransactionModel.swift in Sources */,
 			);
