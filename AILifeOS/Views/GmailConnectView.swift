@@ -168,36 +168,6 @@ struct PermissionItem: View {
     }
 }
 
-struct PermissionItem: View {
-    let icon: String
-    let title: String
-    let description: String
-    
-    var body: some View {
-        HStack(spacing: 12) {
-            Image(systemName: icon)
-                .font(.system(size: 18))
-                .foregroundColor(.blue)
-                .frame(width: 30)
-            
-            VStack(alignment: .leading, spacing: 2) {
-                Text(title)
-                    .font(.headline)
-                    .foregroundColor(.black)
-                
-                Text(description)
-                    .font(.caption)
-                    .foregroundColor(.gray)
-            }
-            
-            Spacer()
-        }
-        .padding()
-        .background(Color.white)
-        .cornerRadius(8)
-    }
-}
-
 #Preview {
     GmailConnectView(isPresented: .constant(true))
 }
